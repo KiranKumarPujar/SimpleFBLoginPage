@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Facebook Page</title>
+    <link rel="stylesheet" href="facebookLogin.css" />
+  </head>
+  <body>
+    <div class="textbox">
+      <h1>facebook</h1>
+      <h2>Facebook helps to connect and share with the people in your life.</h2>
+    </div>
+
+    <div class="container">
+      <div class="form">
+        <input
+          type="text"
+          class="text"
+          placeholder="Enter Your Email or Phone Number"
+          id="user"
+        />
+        <br />
+        <input type="password" class="text" placeholder="Password" id="pass" />
+        <br />
+
+        <button onclick="validate()">Login</button>
+        <p><a href=""> forgot password?</a><br /></p>
+ś
+        <div class="btn">
+          <button>Create New Account</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var user = document.querySelector("#user");
+      var pass = document.querySelector("#pass");
+
+      function validate() {
+        alert("Successfully logged in");
+      }
+    </script>
+  </body>
+</html>
